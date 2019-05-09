@@ -1,0 +1,131 @@
+*{ margin:0;padding:0; box-sizing:border-box; }
+body {
+    background-image:radial-gradient(circle,rgb(220, 176, 231),white);
+  }
+.container1 {
+  width:750px;
+  background:#fff;
+  margin:0 auto;
+  margin-top:80px;
+  overflow:hidden;
+}
+.header1 {
+  width:100%;
+  height:250px;
+  position:relative;
+  background:#fff;
+}
+.header1:before {
+  content:'';
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:#ff9800;
+  background-image:url('https://zipimg.azureedge.net/images/events/D31E5AB4-21F3-4625-B863-D59BFF935A13/344B7B1C-F80B-47E1-8FD5-D2514BA20D43.jpg');
+
+  left:0;
+  /* top:-54px; */
+ 
+}
+
+.person1 {
+  width:250px;
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+/* .dp1 {
+  width:100px;
+  height:100px;
+  background:#fff;
+  background-image:url('http://ahollywoodactress.com/wp-content/uploads/2017/08/Best-Salman-Khan-HD-Wallpaper.jpg');
+  background-size:cover;
+  background-position:center top;
+  box-shadow:1px 2px 8px 2px rgba(0, 0, 0, 0.5);
+  border:3px solid #fff;
+  position:absolute;
+  bottom:45px;
+  right:30px;
+  border-radius:50%;
+} */
+.name1 {
+  color:#25272b;
+  position:absolute;
+  bottom:5px;
+  right:30px;
+  font-weight:bolder;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+  text-shadow:1px 1px 1px #eee;
+  font-size:30px;
+}
+.info1 {
+  border-top:1px solid #eee;
+  padding:20px;
+  background:rgba(0,0,0,0.03);
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+.title1 {
+  color:#25272b;
+  margin-bottom:15px;
+  position:relative;
+  padding-bottom:3px;
+}
+.title1:after {
+  position:absolute;
+  content:'';
+  bottom:0;
+  left:0;
+  border-bottom:1.5px solid #333;
+  width:100px;
+}
+
+p{
+  font-size:14px;
+  color:#333;
+  text-align:justify;
+}
+
+.movies1 {
+  width:100%;
+  padding-top:20px;
+  margin-top:20px;
+  border-top:1px solid #eee;
+}
+
+.section1 {
+  list-style-type:none;
+}
+.section1 li {
+  width:70px;
+  margin:5px;
+  display:inline-block;
+}
+.section1 li span {
+  display:block;
+  font-size:13px;
+  text-transform:capitalize;
+  height:30px;
+  overflow:hidden;
+}
+
+.social1 {
+  width:100%;
+  padding-top:40px;
+  margin-top:20px;
+  border-top:1px solid #eee;
+  padding-bottom:20px;
+  border-bottom:1px solid #eee;
+}
+.social1 ul li{
+  list-style:none;
+  display:inline;
+  margin:10px;
+}
+.social1 ul li a img {
+  width:30px; 
+  height:30px;
+  border-radius:50%;
+}
+.social1 ul li a img:hover {
+  opacity:0.5;
+}
